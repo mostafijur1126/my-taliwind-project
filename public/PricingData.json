@@ -1,0 +1,48 @@
+{
+  "pricingPlans": [
+    {
+      "id": 1,
+      "name": "Basic Plan",
+      "price": 1000,
+      "duration": "month",
+      "description": "Ideal for beginners starting their fitness journey.",
+      "features": [
+        "Access to gym equipment",
+        "Locker facility",
+        "Open gym hours",
+        "1 free consultation"
+      ],
+      "popular": false
+    },
+    {
+      "id": 2,
+      "name": "Standard Plan",
+      "price": 2000,
+      "duration": "month",
+      "description": "Perfect for regular members who want guided training.",
+      "features": [
+        "All Basic features",
+        "Personal trainer (2 days/week)",
+        "Group classes access",
+        "Diet plan guidance",
+        "Progress tracking"
+      ],
+      "popular": true
+    },
+    {
+      "id": 3,
+      "name": "Premium Plan",
+      "price": 3500,
+      "duration": "month",
+      "description": "Best for advanced users who want full support.",
+      "features": [
+        "All Standard features",
+        "Unlimited personal training",
+        "Custom diet plan",
+        "Sauna & steam access",
+        "Priority support"
+      ],
+      "popular": false
+    }
+  ]
+}
