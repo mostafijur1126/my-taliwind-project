@@ -30,7 +30,7 @@ const navLinks = [
 ];
 
 
-const links = navLinks.map(route => <li className='px-4 lg:mr-10 hover:bg-amber-600'><a href={route.path}>{route.name}</a></li>);
+const links = navLinks.map((route, index )=> <li key={index} className='px-4 lg:mr-10 hover:bg-amber-600'><a href={route.path}>{route.name}</a></li>);
 const NavBar = () => {
 
   const [open, setOpen] = useState(false)

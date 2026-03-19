@@ -17,6 +17,7 @@
     {
       "id": 2,
       "name": "Standard Plan",
+      "popular": true,
       "price": 2000,
       "duration": "month",
       "description": "Perfect for regular members who want guided training.",
@@ -26,8 +27,7 @@
         "Group classes access",
         "Diet plan guidance",
         "Progress tracking"
-      ],
-      "popular": true
+      ]
     },
     {
       "id": 3,
